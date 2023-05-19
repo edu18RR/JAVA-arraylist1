@@ -33,8 +33,10 @@ public class Clase3 {
         System.out.println(cursos);
         */
 
-        List<String> cursosList = cursos.stream().sorted().collect(Collectors.toList());
+         /*List<String> cursosList = cursos.stream().sorted().collect(Collectors.toList());
+        System.out.println(cursosList); */
 
+        List<String> cursosList = cursos.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
         System.out.println(cursosList);
     }
 }
