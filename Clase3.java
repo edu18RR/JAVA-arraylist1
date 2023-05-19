@@ -26,9 +26,15 @@ public class Clase3 {
         Collections.sort(cursos);
         System.out.println(cursos);
         Collections.sort(cursos, Collections.reverseOrder()); //orden inverso)
-        System.out.println(cursos); //lista */
+        System.out.println(cursos); //lista 
+        System.out.println(cursosList); */
 
-        cursos.sort(Comparator.naturalOrder()); //orden natural
-        System.out.println(cursos);
+        /*cursos.sort(Comparator.naturalOrder()); //orden natural
+        System.out.println(cursosList);
+        */
+
+        List<String> cursosList = cursos.stream().sorted().collect(Collectors.toList());
+
+        System.out.println(cursosList);
     }
 }
