@@ -20,9 +20,12 @@ public class Clase2 {
 
         System.out.println(listaString);
 
-        for(int i = 0; i < listaString.size(); i++) {
+       /* for(int i = 0; i < listaString.size(); i++) {
         System.out.println(listaString.get(i)); // contenido de la lista
-        }
+        } */
 
+        for (String clase : listaString ) { //recorre la lista y la almacena en la variable clase
+        System.out.println(clase);
+        }        
     }
 }
