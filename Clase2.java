@@ -20,18 +20,9 @@ public class Clase2 {
 
         System.out.println(listaString);
 
-        //for(int i = 0; i < listaString.size(); i++) {
-        //    System.out.println(listaString.get(i));
-        //}
-
-        //for (String clase : listaString ) {
-        //    System.out.println(clase);
-        //}
-
-        //listaString.forEach(clase -> {
-        //    System.out.println(clase);
-        //});
-
+        for(int i = 0; i < listaString.size(); i++) {
+        System.out.println(listaString.get(i)); // contenido de la lista
+        }
 
     }
 }
