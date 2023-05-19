@@ -27,10 +27,10 @@ public class Clase3 {
         System.out.println(cursos);
         Collections.sort(cursos, Collections.reverseOrder()); //orden inverso)
         System.out.println(cursos); //lista 
-        System.out.println(cursosList); */
+        System.out.println(cursos); */
 
         /*cursos.sort(Comparator.naturalOrder()); //orden natural
-        System.out.println(cursosList);
+        System.out.println(cursos);
         */
 
         List<String> cursosList = cursos.stream().sorted().collect(Collectors.toList());
