@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Clase1 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //string retorna un string de una coleccion
 
         String variable1 = "Ejemplo 1";
         String variable2 = "Ejemplo 2";
@@ -20,6 +20,7 @@ public class Clase1 {
 
         System.out.println(listaString);
 
-
+        // listaString.remove(1);
+        System.out.println(listaString);
     }
 }
