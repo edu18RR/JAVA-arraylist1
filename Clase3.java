@@ -22,21 +22,12 @@ public class Clase3 {
         cursos.add(curso3);
         cursos.add(curso4);
 
-        //System.out.println(cursos);
+        System.out.println(cursos);
+        Collections.sort(cursos);
+        System.out.println(cursos);
+        Collections.sort(cursos, Collections.reverseOrder()); //orden inverso)
+        System.out.println(cursos); //lista
 
-        //Collections.sort(cursos);
-
-        //System.out.println(cursos);
-
-        //Collections.sort(cursos, Collections.reverseOrder());
-
-        //System.out.println(cursos);
-
-        //cursos.sort(Comparator.naturalOrder());
-
-        List<String> cursosList = cursos.stream().sorted().collect(Collectors.toList());
-
-        System.out.println(cursosList);
-
+        System.out.println(cursos);
     }
 }
