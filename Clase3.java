@@ -22,12 +22,13 @@ public class Clase3 {
         cursos.add(curso3);
         cursos.add(curso4);
 
-        System.out.println(cursos);
+        /*System.out.println(cursos);
         Collections.sort(cursos);
         System.out.println(cursos);
         Collections.sort(cursos, Collections.reverseOrder()); //orden inverso)
-        System.out.println(cursos); //lista
+        System.out.println(cursos); //lista */
 
+        cursos.sort(Comparator.naturalOrder()); //orden natural
         System.out.println(cursos);
     }
 }
