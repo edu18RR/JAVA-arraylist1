@@ -21,6 +21,7 @@ public class Clase1 {
         System.out.println(listaString);
 
         // listaString.remove(1);
+        listaString.set(2, "Ejemplo Alterado");
         System.out.println(listaString);
     }
 }
