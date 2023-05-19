@@ -21,7 +21,7 @@ public class Clase1 {
         System.out.println(listaString);
 
         // listaString.remove(1);
-        listaString.set(2, "Ejemplo Alterado");
-        System.out.println(listaString);
+        // listaString.set(2, "Ejemplo Alterado");
+        System.out.println(listaString.size()); //size es un metodo que retorna un entero (conteo de elementos)
     }
 }
