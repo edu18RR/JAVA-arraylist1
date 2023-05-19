@@ -24,8 +24,12 @@ public class Clase2 {
         System.out.println(listaString.get(i)); // contenido de la lista
         } */
 
-        for (String clase : listaString ) { //recorre la lista y la almacena en la variable clase
+        /* for (String clase : listaString ) { //recorre la lista y la almacena en la variable clase
         System.out.println(clase);
-        }        
+        }        */
+
+        listaString.forEach(clase -> {
+        System.out.println(clase);
+        });
     }
 }
